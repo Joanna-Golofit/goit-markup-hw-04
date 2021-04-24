@@ -121,8 +121,6 @@ img {
   color: var(--blue-color);
 }
 
-
-
 .menu-navigation-list-item:nth-child(2) {
   margin-right: 46px;
   margin-left: 64px;
@@ -224,6 +222,17 @@ img {
 
 /* ======= WHY US ======= */
 
+.article-list-icon {
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #F5F4FA;
+}
+.article-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .why-us.section {
   padding-bottom: 0;
 }
@@ -239,14 +248,6 @@ img {
   /* margin-top: 94px; */
 }
 
-/* .article-list-item:not(:last-child) {
-  margin-right: 30px;
-} */
-
-.article-list-text {
-  /* margin-bottom: 94px; */
-  margin-top: 10px;
-}
 
 
 /* .......................... */
@@ -257,6 +258,7 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 
 .article-list-text {
@@ -264,6 +266,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--gray-color);
+  margin-top: 10px;
 }
 /* ======= END WHY US ======= */
 
