@@ -159,13 +159,14 @@ img {
 /* ======= <MAIN> (HEADER)  ======= */
 
 .background-header {
-  
+   /* background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4)), 
+    url("../images/header/header.jpg"); */
   background-image: url("../images/header/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background-color: linear-gradient(rgba(47, 48, 58, 0.4)); */
-  /* background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
-  url("../images/header/header.jpg"); */
+ 
 }
 
 .background-header .container {
