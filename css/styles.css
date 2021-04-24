@@ -18,7 +18,8 @@ body {
 h1,
  h2, 
  h3, 
- h4 {
+ h4,
+ h5 {
   margin: 0;
 }
 
@@ -292,6 +293,43 @@ img {
 
 /* ======= TEAM ======= */
 
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.team .social-list {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  /* background-color: #000; */
+  text-decoration: none;
+  color: #AFB1B8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--blue-color);
+  color: white;
+}
+
 .team-list-item {  
   background-color: var(--white-color);
   width: 270px;
@@ -348,23 +386,53 @@ img {
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: var(--gray-color);
-  margin-bottom: 30px;
 }
 /* ======= END TEAM ======= */
 
 /* =======  CONTACT ======= */
 
+
+
 .contact-container.container {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  flex-direction: column;
-  /* justify-content: flex-start; */
-  align-items: flex-start;
+  align-items: center;
+  
 }
 
+.addresses {
+  margin-right: 70px;
+}
+
+.join-us-header.white {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.join-us .social-list-link {
+ background-color: rgba(255, 255, 255, 0.1);
+ color: var(--white-color);
+}
+
+.join-us .social-list-link:hover,
+.join-us .social-list-link:focus {
+  background-color: var(--blue-color);
+}
+
+
+.join-us .social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.join-us .social-list {
+  margin-top: 20px;
+}
 
 .contact {
   background-color: var(--background-color-dark);
@@ -372,6 +440,7 @@ img {
 }
 
 .logo-link-white {
+  display: block;
   margin-bottom: 20px;
   color: var(--white-color);
   
@@ -405,7 +474,7 @@ img {
 
 /* ======= END CONTACT ======= */
 
-/* ===================== portfolio ===================== */
+/* ============================== portfolio ============================= */
 
 /* =======  FILTERS  ======= */
 
