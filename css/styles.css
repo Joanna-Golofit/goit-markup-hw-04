@@ -51,6 +51,15 @@ img {
   text-decoration: none;
 }
 
+              .icon {
+                fill: var(--main-color);
+                /* stroke: #f44336; */
+              }
+
+/* .icon:hover {
+  fill: ;
+} */
+
 /* ======= COMPONENTS ======= */
 
 
@@ -75,6 +84,17 @@ img {
 
 
 /* ======= <HEADER> (MENU NAVIGATION) ======= */
+
+.menu-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.menu-contacts-list-link {
+  display: flex;
+  align-items: center;
+
+}
 
 .header .container {
   display: flex;
@@ -148,13 +168,17 @@ img {
 /* ======= <MAIN> (HEADER)  ======= */
 
 .background-header {
-  background-color: var(--background-color-dark);
+  /* background-color: linear-gradient( rgba(47, 48, 58, 0.4)); */
+  background-image: url("/images/header/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .background-header .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
     
 /*   
   width: 1600px;
